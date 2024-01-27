@@ -4,10 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        palanquin : ['Palanquin', 'sans-serif']
+        palanquin: ["Palanquin", "sans-serif"],
       },
     },
   },
   plugins: [],
-}
-
+};

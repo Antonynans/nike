@@ -67,7 +67,7 @@ export default function Hero() {
           />
           <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
             <div>
-            <div className={`${imageUrl === '/shoe1.png' && 'border-[#ff6452] border-solid'} border-2 rounded-xl border-transparent cursor-pointer max-sm:flex-1`}>
+            <div style={{borderColor: imageUrl === '/shoe1.png' ? "#ff6452" : ""}} className="border-2 border-solid rounded-xl border-transparent cursor-pointer max-sm:flex-1">
                 <div className="flex justify-center items-center bg-[url('/blob.svg')] bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
                   <img
                     src="/thumbnail-shoe1.svg"
@@ -81,7 +81,7 @@ export default function Hero() {
               </div>
             </div>
             <div>
-            <div className={`${imageUrl === '/shoe2.png' && 'border-[#ff6452] border-solid'} border-2 rounded-xl border-transparent cursor-pointer max-sm:flex-1`}>
+            <div style={{borderColor: imageUrl === '/shoe2.png' ? "#ff6452" : ""}} className="border-2 border-solid rounded-xl border-transparent cursor-pointer max-sm:flex-1">
                 <div className="flex justify-center items-center bg-[url('/blob.svg')] bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
                   <img
                     src="/thumbnail-shoe2.svg"
@@ -95,7 +95,7 @@ export default function Hero() {
               </div>
             </div>
             <div>
-              <div className={`${imageUrl === '/shoe3.png' && 'border-[#ff6452] border-solid'} border-2 rounded-xl border-transparent cursor-pointer max-sm:flex-1`}>
+            <div style={{borderColor: imageUrl === '/shoe3.png' ? "#ff6452" : ""}} className="border-2 border-solid rounded-xl border-transparent cursor-pointer max-sm:flex-1">
                 <div className="flex justify-center items-center bg-[url('/blob.svg')] bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
                   <img
                     src="/thumbnail-shoe3.svg"
